@@ -67,7 +67,7 @@ namespace component.netcore.api.refit
             var service = RestService.For<IDynamicRefit<T, string>>(new HttpClient(new AuthorizedHttpClientHandler(apiCallInfo.HeaderValues)) { BaseAddress = new Uri(apiCallInfo.Url) });
 
             switch (apiCallInfo.HttpMethod.ToLower())
-            {
+            {                
                 case "post":
                     return await service.Post(apiCallInfo.Headers, JsonConvert.SerializeObject(apiCallInfo.StringQueryParamValues));
                 default:

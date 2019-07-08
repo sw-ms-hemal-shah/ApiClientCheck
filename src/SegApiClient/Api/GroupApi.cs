@@ -35,7 +35,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>ResponseInfo</returns>
-        ResponseInfo SegsGroupAdd (Group group = null);
+        ResponseInfo SegsGroupAdd(Group group = null);
 
         /// <summary>
         /// Add seg group.
@@ -46,7 +46,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>ApiResponse of ResponseInfo</returns>
-        ResponseInfo SegsGroupAddWithHttpInfo (Group group = null);
+        ResponseInfo SegsGroupAddWithHttpInfo(Group group = null);
         /// <summary>
         /// To delete seg group.
         /// </summary>
@@ -56,7 +56,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>ResponseInfo</returns>
-        ResponseInfo SegsGroupDelete (Guid? id);
+        ResponseInfo SegsGroupDelete(Guid? id);
 
         /// <summary>
         /// To delete seg group.
@@ -67,7 +67,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>ApiResponse of ResponseInfo</returns>
-        ResponseInfo SegsGroupDeleteWithHttpInfo (Guid? id);
+        ResponseInfo SegsGroupDeleteWithHttpInfo(Guid? id);
         /// <summary>
         /// Get seg group by group id.
         /// </summary>
@@ -77,7 +77,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>RetrieveGroup</returns>
-        RetrieveGroup SegsGroupGet (Guid? id);
+        RetrieveGroup SegsGroupGet(Guid? id);
 
         /// <summary>
         /// Get seg group by group id.
@@ -88,7 +88,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>ApiResponse of RetrieveGroup</returns>
-        RetrieveGroup SegsGroupGetWithHttpInfo (Guid? id);
+        RetrieveGroup SegsGroupGetWithHttpInfo(Guid? id);
         /// <summary>
         /// Get list of seg groups.
         /// </summary>
@@ -97,7 +97,7 @@ namespace SegApiClient.Api
         /// </remarks>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>List&lt;RetrieveGroup&gt;</returns>
-        List<RetrieveGroup> SegsGroupList ();
+        List<RetrieveGroup> SegsGroupList();
 
         /// <summary>
         /// Get list of seg groups.
@@ -107,7 +107,7 @@ namespace SegApiClient.Api
         /// </remarks>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of List&lt;RetrieveGroup&gt;</returns>
-        List<RetrieveGroup> SegsGroupListWithHttpInfo ();
+        List<RetrieveGroup> SegsGroupListWithHttpInfo();
         /// <summary>
         /// To update seg group.
         /// </summary>
@@ -118,7 +118,7 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>ResponseInfo</returns>
-        ResponseInfo SegsGroupUpdate (Guid? id, Group group = null);
+        ResponseInfo SegsGroupUpdate(Guid? id, Group group = null);
 
         /// <summary>
         /// To update seg group.
@@ -130,7 +130,7 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>ApiResponse of ResponseInfo</returns>
-        ResponseInfo SegsGroupUpdateWithHttpInfo (Guid? id, Group group = null);
+        ResponseInfo SegsGroupUpdateWithHttpInfo(Guid? id, Group group = null);
         #endregion Synchronous Operations
         #region Asynchronous Operations
         /// <summary>
@@ -142,7 +142,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>Task of ResponseInfo</returns>
-        System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsync (Group group = null);
+        System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsync(Group group = null);
 
         /// <summary>
         /// Add seg group.
@@ -153,7 +153,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>Task of ApiResponse (ResponseInfo)</returns>
-        System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsyncWithHttpInfo (Group group = null);
+        System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsyncWithHttpInfo(Group group = null);
         /// <summary>
         /// To delete seg group.
         /// </summary>
@@ -163,7 +163,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>Task of ResponseInfo</returns>
-        System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsync (Guid? id);
+        System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsync(Guid? id);
 
         /// <summary>
         /// To delete seg group.
@@ -174,7 +174,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>Task of ApiResponse (ResponseInfo)</returns>
-        System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsyncWithHttpInfo (Guid? id);
+        System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsyncWithHttpInfo(Guid? id);
         /// <summary>
         /// Get seg group by group id.
         /// </summary>
@@ -184,7 +184,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>Task of RetrieveGroup</returns>
-        System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsync (Guid? id);
+        System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsync(Guid? id);
 
         /// <summary>
         /// Get seg group by group id.
@@ -195,7 +195,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>Task of ApiResponse (RetrieveGroup)</returns>
-        System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsyncWithHttpInfo (Guid? id);
+        System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsyncWithHttpInfo(Guid? id);
         /// <summary>
         /// Get list of seg groups.
         /// </summary>
@@ -204,7 +204,7 @@ namespace SegApiClient.Api
         /// </remarks>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of List&lt;RetrieveGroup&gt;</returns>
-        System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsync ();
+        System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsync();
 
         /// <summary>
         /// Get list of seg groups.
@@ -214,7 +214,7 @@ namespace SegApiClient.Api
         /// </remarks>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (List&lt;RetrieveGroup&gt;)</returns>
-        System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsyncWithHttpInfo ();
+        System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsyncWithHttpInfo();
         /// <summary>
         /// To update seg group.
         /// </summary>
@@ -225,7 +225,7 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>Task of ResponseInfo</returns>
-        System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsync (Guid? id, Group group = null);
+        System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsync(Guid? id, Group group = null);
 
         /// <summary>
         /// To update seg group.
@@ -237,7 +237,7 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>Task of ApiResponse (ResponseInfo)</returns>
-        System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsyncWithHttpInfo (Guid? id, Group group = null);
+        System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsyncWithHttpInfo(Guid? id, Group group = null);
         #endregion Asynchronous Operations
     }
 
@@ -254,11 +254,14 @@ namespace SegApiClient.Api
         /// Initializes a new instance of the <see cref="GroupApi"/> class.
         /// </summary>
         /// <returns></returns>
-        public GroupApi(String basePath)
+        //public GroupApi(String basePath, IApiCaller refitWrapper)
+        public GroupApi(IApiCaller refitWrapper)
         {
-            this.Configuration = new SegApiClient.Client.Configuration { BasePath = basePath };
+            //this.Configuration = new SegApiClient.Client.Configuration { BasePath = basePath };
 
             ExceptionFactory = SegApiClient.Client.Configuration.DefaultExceptionFactory;
+
+            _refitWrapper = refitWrapper;
         }
 
         /// <summary>
@@ -300,7 +303,7 @@ namespace SegApiClient.Api
         /// Gets or sets the configuration object
         /// </summary>
         /// <value>An instance of the Configuration</value>
-        public SegApiClient.Client.Configuration Configuration {get; set;}
+        public SegApiClient.Client.Configuration Configuration { get; set; }
 
         /// <summary>
         /// Provides a factory method hook for the creation of exceptions.
@@ -346,10 +349,10 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>ResponseInfo</returns>
-        public ResponseInfo SegsGroupAdd (Group group = null)
+        public ResponseInfo SegsGroupAdd(Group group = null)
         {
-             ResponseInfo localVarResponse = SegsGroupAddWithHttpInfo(group);
-             return localVarResponse;
+            ResponseInfo localVarResponse = SegsGroupAddWithHttpInfo(group);
+            return localVarResponse;
         }
 
         /// <summary>
@@ -358,7 +361,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>ApiResponse of ResponseInfo</returns>
-        public ResponseInfo SegsGroupAddWithHttpInfo (Group group = null)
+        public ResponseInfo SegsGroupAddWithHttpInfo(Group group = null)
         {
 
             var localVarPath = "/api/v1/segs/groups";
@@ -371,9 +374,9 @@ namespace SegApiClient.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json-patch+json", 
-                "application/json", 
-                "text/json", 
+                "application/json-patch+json",
+                "application/json",
+                "text/json",
                 "application/_*+json"
             };
             String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
@@ -411,9 +414,10 @@ namespace SegApiClient.Api
             {
                 HeaderValues = dictionaryToken,
                 Url = Configuration.BasePath + localVarPath,
-                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Get
+                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Post,
+                QueryParamValues = group
             };
-            return _refitWrapper.CallApi<ResponseInfo>(apiCallInfo).Result;
+            return _refitWrapper.CallApi<ResponseInfo, Group>(apiCallInfo).Result;
 
             // make the HTTP request
             //IRestResponse localVarResponse = (IRestResponse) this.Configuration.ApiClient.CallApi(localVarPath,
@@ -439,10 +443,10 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>Task of ResponseInfo</returns>
-        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsync (Group group = null)
+        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsync(Group group = null)
         {
-             ResponseInfo localVarResponse = await SegsGroupAddAsyncWithHttpInfo(group);
-             return localVarResponse;
+            ResponseInfo localVarResponse = await SegsGroupAddAsyncWithHttpInfo(group);
+            return localVarResponse;
 
         }
 
@@ -452,7 +456,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="group">group - object that needs to be added (optional)</param>
         /// <returns>Task of ApiResponse (ResponseInfo)</returns>
-        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsyncWithHttpInfo (Group group = null)
+        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupAddAsyncWithHttpInfo(Group group = null)
         {
 
             var localVarPath = "/api/v1/segs/groups";
@@ -465,9 +469,9 @@ namespace SegApiClient.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json-patch+json", 
-                "application/json", 
-                "text/json", 
+                "application/json-patch+json",
+                "application/json",
+                "text/json",
                 "application/_*+json"
             };
             String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
@@ -533,10 +537,10 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>ResponseInfo</returns>
-        public ResponseInfo SegsGroupDelete (Guid? id)
+        public ResponseInfo SegsGroupDelete(Guid? id)
         {
-             ResponseInfo localVarResponse = SegsGroupDeleteWithHttpInfo(id);
-             return localVarResponse;
+            ResponseInfo localVarResponse = SegsGroupDeleteWithHttpInfo(id);
+            return localVarResponse;
         }
 
         /// <summary>
@@ -545,7 +549,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>ApiResponse of ResponseInfo</returns>
-        public ResponseInfo SegsGroupDeleteWithHttpInfo (Guid? id)
+        public ResponseInfo SegsGroupDeleteWithHttpInfo(Guid? id)
         {
             // verify the required parameter 'id' is set
             if (id == null)
@@ -589,8 +593,8 @@ namespace SegApiClient.Api
             var apiCallInfo = new ApiCallInfo()
             {
                 HeaderValues = dictionaryToken,
-                Url = Configuration.BasePath + localVarPath,
-                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Get
+                Url = Configuration.BasePath + localVarPath.Replace("{id}", id.Value.ToString()),
+                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Delete
             };
             return _refitWrapper.CallApi<ResponseInfo>(apiCallInfo).Result;
 
@@ -618,10 +622,10 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>Task of ResponseInfo</returns>
-        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsync (Guid? id)
+        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsync(Guid? id)
         {
-             ResponseInfo localVarResponse = await SegsGroupDeleteAsyncWithHttpInfo(id);
-             return localVarResponse;
+            ResponseInfo localVarResponse = await SegsGroupDeleteAsyncWithHttpInfo(id);
+            return localVarResponse;
 
         }
 
@@ -631,7 +635,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id"></param>
         /// <returns>Task of ApiResponse (ResponseInfo)</returns>
-        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsyncWithHttpInfo (Guid? id)
+        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupDeleteAsyncWithHttpInfo(Guid? id)
         {
             // verify the required parameter 'id' is set
             if (id == null)
@@ -704,10 +708,10 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>RetrieveGroup</returns>
-        public RetrieveGroup SegsGroupGet (Guid? id)
+        public RetrieveGroup SegsGroupGet(Guid? id)
         {
-             RetrieveGroup localVarResponse = SegsGroupGetWithHttpInfo(id);
-             return localVarResponse;
+            RetrieveGroup localVarResponse = SegsGroupGetWithHttpInfo(id);
+            return localVarResponse;
         }
 
         /// <summary>
@@ -716,7 +720,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>ApiResponse of RetrieveGroup</returns>
-        public RetrieveGroup SegsGroupGetWithHttpInfo (Guid? id)
+        public RetrieveGroup SegsGroupGetWithHttpInfo(Guid? id)
         {
             // verify the required parameter 'id' is set
             if (id == null)
@@ -760,8 +764,9 @@ namespace SegApiClient.Api
             var apiCallInfo = new ApiCallInfo()
             {
                 HeaderValues = dictionaryToken,
-                Url = Configuration.BasePath + localVarPath,
-                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Get
+                Url = Configuration.BasePath + localVarPath.Replace("{id}", id.Value.ToString()),
+                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Get,                
+
             };
             return _refitWrapper.CallApi<RetrieveGroup>(apiCallInfo).Result;
 
@@ -789,10 +794,10 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>Task of RetrieveGroup</returns>
-        public async System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsync (Guid? id)
+        public async System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsync(Guid? id)
         {
-             RetrieveGroup localVarResponse = await SegsGroupGetAsyncWithHttpInfo(id);
-             return localVarResponse;
+            RetrieveGroup localVarResponse = await SegsGroupGetAsyncWithHttpInfo(id);
+            return localVarResponse;
 
         }
 
@@ -802,7 +807,7 @@ namespace SegApiClient.Api
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">Seg group id for which wants group.</param>
         /// <returns>Task of ApiResponse (RetrieveGroup)</returns>
-        public async System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsyncWithHttpInfo (Guid? id)
+        public async System.Threading.Tasks.Task<RetrieveGroup> SegsGroupGetAsyncWithHttpInfo(Guid? id)
         {
             // verify the required parameter 'id' is set
             if (id == null)
@@ -874,10 +879,10 @@ namespace SegApiClient.Api
         /// </summary>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>List&lt;RetrieveGroup&gt;</returns>
-        public List<RetrieveGroup> SegsGroupList ()
+        public List<RetrieveGroup> SegsGroupList()
         {
-             List<RetrieveGroup> localVarResponse = SegsGroupListWithHttpInfo();
-             return localVarResponse;
+            List<RetrieveGroup> localVarResponse = SegsGroupListWithHttpInfo();
+            return localVarResponse;
         }
 
         /// <summary>
@@ -885,7 +890,7 @@ namespace SegApiClient.Api
         /// </summary>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of List&lt;RetrieveGroup&gt;</returns>
-        public List<RetrieveGroup> SegsGroupListWithHttpInfo ()
+        public List<RetrieveGroup> SegsGroupListWithHttpInfo()
         {
 
             var localVarPath = "/api/v1/segs/groups";
@@ -953,10 +958,10 @@ namespace SegApiClient.Api
         /// </summary>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of List&lt;RetrieveGroup&gt;</returns>
-        public async System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsync ()
+        public async System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsync()
         {
-             List<RetrieveGroup> localVarResponse = await SegsGroupListAsyncWithHttpInfo();
-             return localVarResponse;
+            List<RetrieveGroup> localVarResponse = await SegsGroupListAsyncWithHttpInfo();
+            return localVarResponse;
 
         }
 
@@ -965,7 +970,7 @@ namespace SegApiClient.Api
         /// </summary>
         /// <exception cref="SegApiClient.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (List&lt;RetrieveGroup&gt;)</returns>
-        public async System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsyncWithHttpInfo ()
+        public async System.Threading.Tasks.Task<List<RetrieveGroup>> SegsGroupListAsyncWithHttpInfo()
         {
 
             var localVarPath = "/api/v1/segs/groups";
@@ -1035,10 +1040,10 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>ResponseInfo</returns>
-        public ResponseInfo SegsGroupUpdate (Guid? id, Group group = null)
+        public ResponseInfo SegsGroupUpdate(Guid? id, Group group = null)
         {
-             ResponseInfo localVarResponse = SegsGroupUpdateWithHttpInfo(id, group);
-             return localVarResponse;
+            ResponseInfo localVarResponse = SegsGroupUpdateWithHttpInfo(id, group);
+            return localVarResponse;
         }
 
         /// <summary>
@@ -1048,7 +1053,7 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>ApiResponse of ResponseInfo</returns>
-        public ResponseInfo SegsGroupUpdateWithHttpInfo (Guid? id, Group group = null)
+        public ResponseInfo SegsGroupUpdateWithHttpInfo(Guid? id, Group group = null)
         {
             // verify the required parameter 'id' is set
             if (id == null)
@@ -1064,9 +1069,9 @@ namespace SegApiClient.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json-patch+json", 
-                "application/json", 
-                "text/json", 
+                "application/json-patch+json",
+                "application/json",
+                "text/json",
                 "application/_*+json"
             };
             String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
@@ -1104,10 +1109,11 @@ namespace SegApiClient.Api
             var apiCallInfo = new ApiCallInfo()
             {
                 HeaderValues = dictionaryToken,
-                Url = Configuration.BasePath + localVarPath,
-                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Get
+                Url = Configuration.BasePath + localVarPath.Replace("{id}", id.Value.ToString()),
+                HttpMethod = Microsoft.AspNetCore.Http.HttpMethods.Put,
+                QueryParamValues = group
             };
-            return _refitWrapper.CallApi<ResponseInfo>(apiCallInfo).Result;
+            return _refitWrapper.CallApi<ResponseInfo, Group>(apiCallInfo).Result;
 
             // make the HTTP request
             //IRestResponse localVarResponse = (IRestResponse) this.Configuration.ApiClient.CallApi(localVarPath,
@@ -1134,10 +1140,10 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>Task of ResponseInfo</returns>
-        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsync (Guid? id, Group group = null)
+        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsync(Guid? id, Group group = null)
         {
-             ResponseInfo localVarResponse = await SegsGroupUpdateAsyncWithHttpInfo(id, group);
-             return localVarResponse;
+            ResponseInfo localVarResponse = await SegsGroupUpdateAsyncWithHttpInfo(id, group);
+            return localVarResponse;
 
         }
 
@@ -1148,7 +1154,7 @@ namespace SegApiClient.Api
         /// <param name="id">Passes id.</param>
         /// <param name="group">group - object that needs to be updated (optional)</param>
         /// <returns>Task of ApiResponse (ResponseInfo)</returns>
-        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsyncWithHttpInfo (Guid? id, Group group = null)
+        public async System.Threading.Tasks.Task<ResponseInfo> SegsGroupUpdateAsyncWithHttpInfo(Guid? id, Group group = null)
         {
             // verify the required parameter 'id' is set
             if (id == null)
@@ -1164,9 +1170,9 @@ namespace SegApiClient.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json-patch+json", 
-                "application/json", 
-                "text/json", 
+                "application/json-patch+json",
+                "application/json",
+                "text/json",
                 "application/_*+json"
             };
             String localVarHttpContentType = this.Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
