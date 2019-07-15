@@ -5210,25 +5210,24 @@
     ".NETStandard,Version=v1.3": []
   },
   "packageFolders": {
-    "C:\\Users\\hshah\\.nuget\\packages\\": {}
+    "C:\\Users\\kavin.shah\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\GitRepos\\ClientSolution\\component.netcore.apiclient.seg\\component.netcore.apiclient.seg.csproj",
+      "projectUniqueName": "D:\\samples\\client\\petstore\\csharp\\SwaggerClientNetCore1\\component.netcore.apiclient.seg\\component.netcore.apiclient.seg.csproj",
       "projectName": "component.netcore.apiclient.seg",
-      "projectPath": "C:\\GitRepos\\ClientSolution\\component.netcore.apiclient.seg\\component.netcore.apiclient.seg.csproj",
-      "projectJsonPath": "C:\\GitRepos\\ClientSolution\\component.netcore.apiclient.seg\\project.json",
-      "packagesPath": "C:\\Users\\hshah\\.nuget\\packages\\",
-      "outputPath": "C:\\GitRepos\\ClientSolution\\component.netcore.apiclient.seg\\obj\\",
+      "projectPath": "D:\\samples\\client\\petstore\\csharp\\SwaggerClientNetCore1\\component.netcore.apiclient.seg\\component.netcore.apiclient.seg.csproj",
+      "projectJsonPath": "D:\\samples\\client\\petstore\\csharp\\SwaggerClientNetCore1\\component.netcore.apiclient.seg\\project.json",
+      "packagesPath": "C:\\Users\\kavin.shah\\.nuget\\packages\\",
+      "outputPath": "D:\\samples\\client\\petstore\\csharp\\SwaggerClientNetCore1\\component.netcore.apiclient.seg\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\hshah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kavin.shah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://tfs.alliantcreditunion.com/tfs/DefaultCollection/_packaging/AlliantComponents/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       }
     },
     "dependencies": {
