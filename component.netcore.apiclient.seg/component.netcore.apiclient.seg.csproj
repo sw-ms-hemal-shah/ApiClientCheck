@@ -43,7 +43,45 @@ Contact: vpatel@alliantcreditunion.com
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs" Exclude="obj\**" />
+    <Compile Include="v1\Api\CardTypeApi.cs" />
+    <Compile Include="v1\Api\CheckTypeApi.cs" />
+    <Compile Include="v1\Api\GroupApi.cs" />
+    <Compile Include="v1\Api\HealthCheckApi.cs" />
+    <Compile Include="v1\Api\KeywordApi.cs" />
+    <Compile Include="v1\Api\ProductVersionApi.cs" />
+    <Compile Include="v1\Api\SegApi.cs" />
+    <Compile Include="Client\ApiClient.cs" />
+    <Compile Include="Client\ApiException.cs" />
+    <Compile Include="Client\ApiResponse.cs" />
+    <Compile Include="Client\Configuration.cs" />
+    <Compile Include="Client\ExceptionFactory.cs" />
+    <Compile Include="Client\GlobalConfiguration.cs" />
+    <Compile Include="Client\IApiAccessor.cs" />
+    <Compile Include="Client\IReadableConfiguration.cs" />
+    <Compile Include="Client\SwaggerDateConverter.cs" />
+    <Compile Include="v1\Model\AddKeyword.cs" />
+    <Compile Include="v1\Model\BadRequestError.cs" />
+    <Compile Include="v1\Model\CardType.cs" />
+    <Compile Include="v1\Model\CheckType.cs" />
+    <Compile Include="v1\Model\DataExceptionError.cs" />
+    <Compile Include="v1\Model\GenericError.cs" />
+    <Compile Include="v1\Model\Group.cs" />
+    <Compile Include="v1\Model\KeyValuePairStringString.cs" />
+    <Compile Include="v1\Model\Keyword.cs" />
+    <Compile Include="v1\Model\MessageInfo.cs" />
+    <Compile Include="v1\Model\NotFoundError.cs" />
+    <Compile Include="v1\Model\ResponseInfo.cs" />
+    <Compile Include="v1\Model\RetrieveGroup.cs" />
+    <Compile Include="v1\Model\RetrieveSeg.cs" />
+    <Compile Include="v1\Model\SearchSeg.cs" />
+    <Compile Include="v1\Model\Seg.cs" />
+    <Compile Include="v1\Model\SegGroup.cs" />
+    <Compile Include="v1\Model\SegMatch.cs" />
+    <Compile Include="v1\Model\SegMatchResult.cs" />
+    <Compile Include="v1\Model\SegResult.cs" />
+    <Compile Include="v1\Model\SegStatus.cs" />
+    <Compile Include="v1\Model\UnauthorizeError.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />

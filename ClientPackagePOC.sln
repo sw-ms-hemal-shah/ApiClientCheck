@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientConsume", "ClientCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "component.netcore.apiclient.seg", "component.netcore.apiclient.seg\component.netcore.apiclient.seg.csproj", "{CBE7FCAF-F482-40E9-BAE9-AB8259692ED3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsumeRestSharp", "ClientConsumeRestSharp\ClientConsumeRestSharp.csproj", "{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{CBE7FCAF-F482-40E9-BAE9-AB8259692ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBE7FCAF-F482-40E9-BAE9-AB8259692ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBE7FCAF-F482-40E9-BAE9-AB8259692ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

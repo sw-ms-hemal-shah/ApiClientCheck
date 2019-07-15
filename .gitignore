@@ -186,4 +186,3 @@ $RECYCLE.BIN/
 **/*.sln.ide
 /.vs/SegApiClient/v15/Server/sqlite3
 /.vs/ClientPackagePOC/v15/Server/sqlite3
-/.vs/*
