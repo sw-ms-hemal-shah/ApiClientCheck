@@ -749,7 +749,13 @@ namespace SegApiClient.Api
             if (localVarHttpHeaderAccept != null)
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
-            if (id != null) localVarPathParams.Add("id", this.Configuration.ApiClient.ParameterToString(id)); // path parameter
+            // path parameter
+            string refitLocalVarPath = string.Empty;
+            if (id != null)
+            {
+                localVarPathParams.Add("id", this.Configuration.ApiClient.ParameterToString(id));
+                refitLocalVarPath = localVarPath.Contains("{" + "id" + "}") == true ? localVarPath.Replace("{id}", this.Configuration.ApiClient.ParameterToString(id)) : localVarPath;
+            }
 
             // authentication (oauth2) required
             // oauth required
