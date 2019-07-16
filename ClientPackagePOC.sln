@@ -10,7 +10,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientConsume", "ClientCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "component.netcore.apiclient.seg", "component.netcore.apiclient.seg\component.netcore.apiclient.seg.csproj", "{CBE7FCAF-F482-40E9-BAE9-AB8259692ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsumeRestSharp", "ClientConsumeRestSharp\ClientConsumeRestSharp.csproj", "{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientConsumeRestSharp", "ClientConsumeRestSharp\ClientConsumeRestSharp.csproj", "{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStd", "NetStd", "{4BF86F8A-F135-45DB-8EB7-0FF101925ADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "component.netstd.apiclient.seg", "component.netstd.apiclient.seg\component.netstd.apiclient.seg.csproj", "{6471D47E-CE24-410B-B400-FBAA6B5F179E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +42,16 @@ Global
 		{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05D8EB89-59BD-4181-B7BA-BF081C3A49AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6471D47E-CE24-410B-B400-FBAA6B5F179E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6471D47E-CE24-410B-B400-FBAA6B5F179E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6471D47E-CE24-410B-B400-FBAA6B5F179E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6471D47E-CE24-410B-B400-FBAA6B5F179E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6471D47E-CE24-410B-B400-FBAA6B5F179E} = {4BF86F8A-F135-45DB-8EB7-0FF101925ADC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DAFB529-D2A8-4598-AB79-337951BCCD48}

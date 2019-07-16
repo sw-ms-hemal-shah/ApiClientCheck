@@ -1,0 +1,1 @@
+This folder has been added for NetStandard Project.
